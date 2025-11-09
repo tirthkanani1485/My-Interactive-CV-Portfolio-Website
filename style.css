@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+}
+
+:root {
+    --first-color : #222831;
+    --second-color : #393E46;
+    --third-color : #00ADB5;
+    --fourth-color : #EEEEEE;
+}
+
+h1 ,h2 ,h3 {
+    color: var(--fourth-color);
+}
+
+body {
+    background-color: var(--second-color);
+}
+
+header {
+    background-color: var(--first-color);
+    font-weight: bold;
+}
+
+nav ul {
+    width: 100vw;
+    position: relative;
+    left: 20px;
+}
+nav ul li {
+    height: 6vh;
+    padding: 6px;
+    display: inline-block;
+    justify-content: center;
+    font-size: 4vmin;
+}
+
+nav a {
+    padding: 10px;
+    color: var(--fourth-color);
+    transition: 0.2s;
+}
+
+nav ul li :hover {
+    cursor: pointer;
+    color: var(--third-color);  
+} 
+
+/* Index page  */
+
+.Profile_Image {
+    margin: 12px;
+    text-align: center;
+}
+
+.Profile_Image img {
+    width: 60vmin;
+    height: 60vmin;
+    border-radius: 500px;
+}
+
+.information {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5vmin;
+}
+
+.information h1 {
+    color: var(--third-color);
+}
+
+.information h2{
+    color : var(--third-color);
+    display: inline-flex;
+    justify-content: center;
+}
+
+.information h2 p {
+    color: var(--fourth-color);
+}
+
+/* About us page */
+
+main .About_me h1{
+    color: black;
+}
+
+main .About_me {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 2.5vmin;
+    box-shadow: 0px 20px 10px var(--first-color);
+}
+
+main .About_me h2 strong{
+    color: var(--first-color);
+}
+
+main .box_style strong {
+    color: var(--first-color);
+}
+
+main .About_me h2 {
+    text-align: justify;
+}
+
+/* Skills page */
+
+main .Skills {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 2.5vmin;
+    box-shadow: 0px 20px 10px var(--first-color);
+}
+
+main .Skills h1 {
+    color: black ;
+}
+
+main .Skills img {
+    width: 5vmin;
+    height: 5vmin;
+    margin: 1vmin 1vmin ;
+    display: inline-block;
+}
+
+main .Skills .skill_box h3{
+    font-size: 5vmin ;
+    justify-content: center;
+}
+
+main .Skills .skill_box h3 {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    padding: 3vmin;
+    margin: 10px;
+    background-color: var(--second-color);
+    border-radius: 20px;
+    box-shadow: 0px 9px 10px var(--first-color);
+}
+
+main .Skills .skill_box h3 :hover {
+    background-color: var(--first-color);
+}
+
+/* Project page */
+
+main .Projects {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 3vmin;
+    box-shadow: 0px 20px 10px var(--first-color);   
+}
+
+main .Projects h1 {
+    color: black;
+}
+
+.Project h2 {
+    color: var(--third-color);
+}
+
+main .Projects .Project{
+    width: auto;
+    height: auto;
+    padding: 3vmin;
+    margin: 3vmin;
+    background-color: var(--second-color);
+    border-radius: 20px;
+    box-shadow: 0px 9px 10px var(--first-color);
+    color: var(--fourth-color);
+    font-weight: bold ;
+    font-size: 3vmin;
+}
+
+main .Projects .Project p {
+    text-align: justify ;
+}
+
+/* Archivements  */
+
+main .Archivements {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 3vmin;
+    box-shadow: 0px 20px 10px var(--first-color);   
+}
+
+main .Archivements h1{
+    color: black;
+}
+
+main .Archivements img {
+    width: auto;
+    height :50vmin;
+    margin: 0 3vmin ;
+    box-shadow: 0px 2vmin 1vmin var(--first-color);
+}
+
+/* Contect page : */
+
+main .Contact {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 3vmin;
+    box-shadow: 0px 20px 10px var(--first-color);   
+}
+
+main .Contact h1{
+    color: black;
+}
+
+main .Contact .container strong{
+    color: var(--fourth-color);
+    margin: 0 10px;
+} 
+
+main .Contact .container {
+    width: auto;
+    height: auto;
+    padding: 3vmin;
+    margin: 2vmin;
+    background-color: var(--second-color);
+    border-radius: 20px;
+    box-shadow: 0px 9px 10px var(--first-color);
+    font-size: 3vmin;
+}
+
+main .Contact .container p {
+    color: var(--third-color);
+    font-weight: bold;
+    margin: 2vmin 0;
+}
+
+main .Contact .container .Icon {
+    display: flex;
+    gap: 8vmin;
+    flex-wrap: wrap;
+}
+
+main .Contact .container .Icon a img{
+    width: 3vmin;
+}
+
+main .Contact .container .Icon a {
+    padding: 2vmin;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--first-color);
+    font-weight: bold;
+    font-size: 2.5vmin;
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--fourth-color) ;
+    box-shadow: 0px 9px 10px var(--first-color);
+}
+
+main .Contact .container .Icon a:hover {
+    background-color: var(--third-color);
+}
+
+/* Suvidha Foundation */
+
+main .Suvidha_Foundation {
+    background-color: var(--third-color);
+    border-radius: 20px;
+    padding: 5vmin 3vmin;
+    margin: 9vmin 3vmin;
+    font-size: 3vmin;
+    box-shadow: 0px 20px 10px var(--first-color);   
+}
+
+main .Suvidha_Foundation h1 {
+    color: black;
+}
+
+main .Suvidha_Foundation h3{
+    font-size: 5vmin;
+}
+
+main .Suvidha_Foundation h1  img {
+    width: 10vmin;
+    border-radius: 20vmin;
+    box-shadow: 0 1vmin 1vmin var(--first-color);
+}
+
+main .Suvidha_Foundation h1 {
+    font-size: 6vmin;
+    display: inline-flex;
+    justify-items: center;
+}
+
+main .Suvidha_Foundation h3 {
+    text-align: justify;
+}
+
+main .Suvidha_Foundation .Web_Link img {
+    width: 6vmin;
+    border-radius: 20vmin;
+}
+
+main .Suvidha_Foundation .Web_Link h3 {
+    display: inline-block;
+    justify-items: center;
+    padding: 1vmin;
+}
+
+main .Suvidha_Foundation .Web_Link h3 a {
+    padding: 2vmin;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--fourth-color);
+    font-weight: bold;
+    font-size: 4vmin;
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--first-color) ;
+    box-shadow: 0px 9px 10px var(--first-color);
+}
+
+main .Suvidha_Foundation .Web_Link h3  :hover{
+    background-color: var(--second-color);
+}
+
+footer {
+    width: 100%;
+    color: var(--fourth-color);
+    background-color: var(--first-color);
+    font-weight: bold;
+}
+
+footer div {
+    text-align: center;
+    padding: 3vmin;
+}
+
+footer ul li {
+    list-style: none; 
+    padding: 3vmin;
+    display: inline-block;
+}
+
+footer div a {
+    color :var(--fourth-color);
+    text-decoration: solid;
+    font-size: 4vmin;
+}
+
+footer div li :hover {
+    color: var(--third-color);
+    transition: 0.2s;
+}
+
+footer .Contact h3 {
+    margin: 3vmin;
+    padding: 0;
+}
+
+footer .Logo img {
+    margin: 0 1vmin;
+    padding: 0;
+    width: 5vmin;
+}
